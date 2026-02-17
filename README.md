@@ -1,25 +1,17 @@
-# impact-analysis-goodthought-ngo
-SQL-based impact analysis of nonprofit initiatives using real-world program data.
+# GoodThought NGO Impact Analysis (SQL)
 
-## Impact Analysis of GoodThought NGO Initiatives
+SQL analysis completed in DataCamp using a PostgreSQL database containing assignments, donations, and donor details (2010–2023).
 
-### Overview
-This project analyzes program impact data from GoodThought NGO to evaluate initiative performance and identify trends across beneficiaries, programs, and outcomes.
+## Data Model (ERD)
 
-### Key Questions Explored
-- How does impact vary across different initiatives?
-- Which programs reach the most beneficiaries?
-- Are there patterns in outcomes that suggest higher program effectiveness?
+![Entity Relationship Diagram](images/ERD.png)
 
-### Tools & Skills Used
-- SQL (data cleaning, joins, aggregation)
-- Exploratory data analysis
-- Business-focused interpretation of results
+## Key Questions Answered
 
-### Key Takeaways
-- Certain initiatives consistently reached higher numbers of beneficiaries.
-- Program impact varied significantly across categories, suggesting opportunities for resource reallocation.
-- Clean, well-structured data enabled clear comparisons across initiatives.
+1. Top five assignments by total donation value, categorized by donor type.
+2. Highest-impact assignment in each region (only assignments with at least one donation).
 
-### Notes
-This project was completed as part of a DataCamp project focused on real-world SQL analysis and data interpretation.
+## Files
+
+- `analysis.sql` — final, documented SQL queries
+- `exploration.ipynb` — DataCamp-exported notebook (supporting work)
